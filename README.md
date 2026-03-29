@@ -21,7 +21,7 @@ Este projeto foi desenvolvido para explorar o design de interfaces de streaming 
 - **Interface Adaptável:** Foco em manter a fluidez visual da Netflix original com toques de personalização.
 
 ## 🛠️ Tecnologias Utilizadas
-- **Frontend:** HTML5, CSS3 (ou React/Next.js se aplicável)
+- **Frontend:** HTML5, CSS3 e JavaScript
 - **Design:** CSS Grid & Flexbox
 - **IA:** O copilot (IA da Microsoft) para auxílio técnico.
 
