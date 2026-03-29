@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Define o documento como HTML5 -->
+<html lang="pt-br">
+<!-- Inicia o documento com o idioma português do Brasil -->
+
+<head>
+    <!-- Metadados da página -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define a janela de visualização para dispositivos móveis -->
+    <title>Netflix</title>
+    <!-- Estilo principal da página inspirado na interface Netflix -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Script para alternar entre modo escuro e claro -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Início do corpo da página -->
+    <main>
+        <!-- Conteúdo principal da página -->
+        <header>
+            <!-- Cabeçalho principal com título e controle de tema -->
+            <h1>Quem está assistindo?</h1>
+            <button id="theme-toggle" type="button" aria-pressed="false" aria-label="Alternar tema">
+                <!-- Texto oculto para leitores de tela -->
+                <span class="sr-only">Alternar tema</span>
+            </button>
+        </header>
+        <!-- Seção de perfis com lista sem marcadores para melhorar a semântica -->
+        <section aria-label="Perfis de usuário">
+            <ul class="profiles">
+                <li>
+                    <article class="profile">
+                        <div class="profile-details" aria-label="Perfil 1">
+                            <div>
+                                <a href="catalogo/catalogo.html" aria-label="Entrar no Perfil 1">
+                                    <figure>
+                                        <img src="assets/perfil-01.jpeg" alt="Perfil 1">
+                                        <!-- Legenda do perfil -->
+                                        <figcaption>Henry</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="profile">
+                        <div class="profile-details" aria-label="Perfil 2">
+                            <div>
+                                <a href="catalogo/catalogo.html" aria-label="Entrar no Perfil 2">
+                                    <figure>
+                                        <img src="assets/perfil-02.jpg" alt="Perfil 2">
+                                        <figcaption>Gabrielle</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="profile">
+                        <div class="profile-details" aria-label="Perfil 3">
+                            <div>
+                                <a href="catalogo/catalogo.html" aria-label="Entrar no Perfil 3">
+                                    <figure>
+                                        <img src="assets/perfil-03.jpeg" alt="Perfil 3">
+                                        <figcaption>Arlindo</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="profile">
+                        <div class="profile-details" aria-label="Perfil 4">
+                            <div>
+                                <a href="catalogo/catalogo.html" aria-label="Entrar no Perfil 4">
+                                    <figure>
+                                        <img src="assets/perfil-04.jpeg" alt="Perfil 4">
+                                        <figcaption>Eleticia</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
